@@ -46,7 +46,8 @@
 /* Platinum, Gold, Silver Sections */
 .sponsor .plat,
 .sponsor .gold,
-.sponsor .silver {
+.sponsor .silver,
+.sponsor .bronze {
   display: flex;
   flex-direction: row;
   width: 100%;
@@ -58,14 +59,15 @@
 }
 
 /* Remove border for the last section (silver) */
-.sponsor .silver {
+.sponsor .bronze{
   border-bottom: none;
 }
 
 /* Sponsor Box Styles */
 .sponsor .plat div,
 .sponsor .gold div,
-.sponsor .silver div {
+.sponsor .silver div,
+.sponsor .bronze div {
   background-color: #e2eef0;
   height: 188px;
   width: 282px;
@@ -81,14 +83,18 @@
 }
 
 .sponsor .gold div {
-  background-color: #f1f0e0;
+  background-color: hsl(56, 38%, 91%);
 }
 
-.sponsor .silver div {
+.sponsor .silver div, .sponsor .bronze div {
   background-color: #d9d9d9;
   height: 100px;
   width: 200px;
   font-size: 22px;
+}
+
+.sponsor .bronze div {
+  background-color: hsl(29, 51%, 85%);
 }
 
 /* Image Styles */
@@ -101,20 +107,20 @@
   height: 250px;
 }
 
-.sponsor .silver .logo {
+.sponsor .silver .logo, .sponsor .bronze .logo {
   margin: 50px 100px;
   max-width: fit-content;
   height: 100px;
 }
 
-.sponsor .silver .circle {
+.sponsor .silver .circle, .sponsor .bronze .circle {
   margin: 50px 100px;
   /* max-width: fit-content; */
   height: 200px;
   width: 200px;
 }
 
-.silver #mug {
+.silver #mug, .bronze #mug {
   height: 60px;
 }
 
@@ -131,7 +137,7 @@
 
   .sponsor .plat div,
   .sponsor .gold div,
-  .sponsor .silver div {
+  .sponsor .silver div, .sponsor .bronze div {
     height: 150px;
     width: 200px;
     font-size: 22px;
@@ -139,18 +145,18 @@
   }
 
   .sponsor .gold,
-  .sponsor .silver {
+  .sponsor .silver, .sponsor .bronze {
     flex-wrap: wrap;
     width: 100%;
   }
 
-  .sponsor .silver div {
+  .sponsor .silver div, .sponsor .bronze div {
     height: 80px;
     width: 160px;
     font-size: 18px;
   }
 
-  .sponsor .silver .logo {
+  .sponsor .silver .logo, .sponsor .bronze .logo {
     margin: 50px 100px;
     width: 60dvw;
     height: auto;
@@ -161,7 +167,7 @@
     height: 60px;
   }
 
-  .silver #mug {
+  .silver #mug, .bronze #mug {
     height: 50px;
   }
 }
