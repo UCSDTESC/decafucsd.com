@@ -8,8 +8,8 @@ function FAQ() {
       answer: 'DECaF, or the Disciplines of Engineering Career Fair, is an annual, student-run career fair organized by the Triton Engineering Student Council at UC San Diego. It connects engineering students with recruiters from various industries.'
     },
     {
-      question: 'When and where does DECaF 2024 take place?',
-      answer: 'DECaF 2024 will be held on October 9, 2024, from 10 AM to 2 PM at the Qualcomm Conference Center, UC San Diego.'
+      question: 'When and where does DECaF Winter 2025 take place?',
+      answer: 'DECaF Winter 2025 will be held on January 21, 2025, from 10 AM to 2 PM at the Qualcomm Conference Center, UC San Diego.'
     },
     {
       question: 'How can I get more information?',
@@ -20,7 +20,7 @@ function FAQ() {
   const recruiterFaqs = [
     {
       question: 'How can my company participate?',
-      answer: 'Companies interested in participating can find the registration link on the home page. The deadline for registration is September 15th 2024.'
+      answer: 'Companies interested in participating can find the registration link on the home page. The deadline for registration is January 21st 2025.'
     },
     {
       question: 'Are there any costs associated with participating?',
