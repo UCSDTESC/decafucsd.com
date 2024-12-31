@@ -20,7 +20,7 @@ function FAQ() {
   const recruiterFaqs = [
     {
       question: 'How can my company participate?',
-      answer: 'Companies interested in participating can find the registration link on the home page. The deadline for registration is January 21st 2025.'
+      answer: 'Companies interested in participating can find the registration link on the home page. The deadline for registration is January 6th 2025.'
     },
     {
       question: 'Are there any costs associated with participating?',
