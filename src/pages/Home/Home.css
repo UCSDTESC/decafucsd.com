@@ -101,7 +101,9 @@
 }
 
 /* Mobile Layout */
-@media only screen and (max-width: 768px) {
+
+
+@media only screen and (max-width: 1100px) {
   .home {
     height: 100dvh; /* Allow height to adjust based on content */
     display: flex;
@@ -118,7 +120,7 @@
   }
 
   .home #heading {
-    font-size: 64px; /* Smaller font size for mobile */
+    font-size: 85px; /* Smaller font size for mobile */
   }
 
   .home #subheading,
@@ -145,4 +147,65 @@
   .home .deadline {
     font-size: 16px;
   }
+}
+
+
+@media only screen and (max-width: 712px) {
+  .home #heading {
+    font-size: 50px;
+  }
+
+  .home #subheading {
+    font-size: 18px;
+  }
+
+  .home #venue {
+    font-size: 18px;
+  }
+
+  .home .button {
+    width: 200px;
+    height: 60px;
+    margin: 20px;
+    font-size: 20px;
+  }
+
+  .home .button-group {
+    margin: 10px;
+  }
+
+  .home .deadline {
+    font-size: 16px;
+  }
+  
+}
+
+@media only screen  and (max-width: 437px) {
+  .home #heading {
+    font-size: 36px;
+  }
+
+  .home #subheading {
+    font-size: 18px;
+  }
+
+  .home #venue {
+    font-size: 18px;
+  }
+
+  .home .button {
+    width: 200px;
+    height: 60px;
+    margin: 20px;
+    font-size: 20px;
+  }
+
+  .home .button-group {
+    margin: 10px;
+  }
+
+  .home .deadline {
+    font-size: 16px;
+  }
+  
 }
