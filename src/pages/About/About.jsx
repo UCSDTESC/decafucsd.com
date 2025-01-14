@@ -6,7 +6,9 @@ function About() {
         <div className='about' id='about'>
             <div className='title'><p>What is DECaF?</p></div>
             <div className='content'>
-                <img src={SaxGuy} alt='SaxGuy' id='sax'></img>
+                <div>
+                    <img src={SaxGuy} alt='SaxGuy' id='sax'></img>
+                </div>
                 <div className='desc'>
                     <p>The Disciplines of Engineering Career Fair (DECaF) is an annual, student-run event hosted by the Triton Engineering Student Council at UC San Diego. </p>
                     <p>It connects top engineering students with leading recruiters through networking opportunities, recruiting sessions, and resume feedback. </p>

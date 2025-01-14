@@ -29,7 +29,7 @@
     flex-grow: 1;
     align-items: center;
     justify-content: center;
-    padding: 100px 234px;
+    /* padding: 100px 234px; */
 }
 
 .about .content .desc p {
@@ -39,9 +39,9 @@
     margin: 40px 0;
 }
 
-.about .content .desc {
+/* .about .content .desc {
     margin-left: 100px;
-}
+} */
 
 /* Mobile Layout */
 @media only screen and (max-width: 768px) {
