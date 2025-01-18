@@ -87,7 +87,7 @@
 
 .home #company {
   background-color: #8c74b7;
-  /* opacity: 0.5; */
+  opacity: 0.5;
 }
 
 .home #company:hover {

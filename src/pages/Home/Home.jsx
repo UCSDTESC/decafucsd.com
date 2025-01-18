@@ -20,15 +20,16 @@ function Home() {
             </div>
             <div className="button-group">
               <div className="button" id="company">
-              <a
+              Company Registration
+              {/*<a
                   href="https://docs.google.com/forms/d/1yd30YZFGGzJuseup9kkmxMWH64UlgqnSwPr59grt-C4/"
                   target="_blank"
                   rel="noreferrer"
                 >
                   Company Registration
-                </a>
+                </a>*/}
               </div>
-              <p className="deadline">Registration Open</p>
+              <p className="deadline">Registration Closed</p>
             </div>
           </div>
         </div>
