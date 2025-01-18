@@ -20,13 +20,13 @@ function Sponsor() {
             </div>
           </a>
         </div>
-        <p>Gold</p>
+        {/*<p>Gold</p>
         <div className="gold">
           <div>
             <img src={CoffeeMug} alt="coffee_mug" id="mug"></img>
             Future Sponsor
           </div>
-        </div>
+        </div>*/}
         <p>Silver</p>
         <div className="silver">
           <a href="https://www.keller-na.com">
@@ -45,7 +45,7 @@ function Sponsor() {
             </div>
           </a>
         </div>
-        <p>Bronze</p>
+        {/*<p>Bronze</p>
         <div className="bronze">
           <div>
             <img src={CoffeeMug} alt="coffee_mug" id="mug"></img>
@@ -55,7 +55,7 @@ function Sponsor() {
             <img src={CoffeeMug} alt="coffee_mug" id="mug"></img>
             Future Sponsor
           </div>
-        </div>
+        </div>*/}
       </div>
     </div>
   );
