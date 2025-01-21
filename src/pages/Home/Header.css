@@ -31,8 +31,8 @@
   align-items: center;
   justify-content: space-evenly;
   margin: auto 0;
-  font-size: 36px;
-  flex-grow: 1;
+  font-size: calc(min(3.3vw, 50px));
+  flex-grow: 3;
 }
 
 .navbar p {
