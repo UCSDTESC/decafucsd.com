@@ -21,14 +21,14 @@ function Header() {
         <p id="decaf">DECAF</p>
       </div>
       <div className="whitespace"></div>
-      
+
       {/* Hamburger Menu (visible only on mobile) */}
       <div className="hamburger" onClick={toggleNavbar}>
         <div className={`bar ${isOpen ? "open" : ""}`}></div>
         <div className={`bar ${isOpen ? "open" : ""}`}></div>
         <div className={`bar ${isOpen ? "open" : ""}`}></div>
       </div>
-      
+
       {/* Navbar (responsive behavior) */}
       <div className={`navbar ${isOpen ? "open" : ""}`}>
         <div onClick={() => scrollToSection("about")} className="clickable">
@@ -39,6 +39,9 @@ function Header() {
         </div>
         <div onClick={() => scrollToSection("faq")} className="clickable">
           FAQ
+        </div>
+        <div className="clickable">
+          <a href="https://www.tescucsd.org/">TESC</a>
         </div>
         <div onClick={() => scrollToSection("contact")} className="clickable">
           CONTACT
