@@ -63,6 +63,23 @@
     margin: 20px 0;
 }
 
+.contact-items {
+    display: flex;
+    gap: 2.5vw;
+    margin: 0;
+    padding: 0;
+}
+
+.contact-item {
+    font-size: 2.5vw;
+    font-weight: 500;
+    list-style: none;
+}  
+.contact-item a {
+    text-decoration: none;
+    color: black;
+}
+
 /* Responsive Design */
 @media (max-width: 768px) {
     .footer .contact {
