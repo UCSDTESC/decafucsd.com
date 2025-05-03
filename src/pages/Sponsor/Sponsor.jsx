@@ -14,38 +14,59 @@ function Sponsor() {
       <div className="content">
         <p>Platinum</p>
         <div className="plat">
-          <a href="http://tsmc.com/english">
+          <div>
+            <img src={CoffeeMug} alt="coffee_mug" id="mug"></img>
+            Future Sponsor
+          </div>
+          <div>
+            <img src={CoffeeMug} alt="coffee_mug" id="mug"></img>
+            Future Sponsor
+          </div>
+          {/* <a href="http://tsmc.com/english">
             <div className="sponsor-item">
               <img src={TSMC} alt="TSMC logo"></img>
             </div>
-          </a>
+          </a> */}
         </div>
-        {/*<p>Gold</p>
+        <p>Gold</p>
         <div className="gold">
           <div>
             <img src={CoffeeMug} alt="coffee_mug" id="mug"></img>
             Future Sponsor
           </div>
-        </div>*/}
+          <div>
+            <img src={CoffeeMug} alt="coffee_mug" id="mug"></img>
+            Future Sponsor
+          </div>
+          
+        </div>
         <p>Silver</p>
         <div className="silver">
-          <a href="https://www.keller-na.com">
+        <div>
+            <img src={CoffeeMug} alt="coffee_mug" id="mug"></img>
+            Future Sponsor
+          </div>
+          <div>
+            <img src={CoffeeMug} alt="coffee_mug" id="mug"></img>
+            Future Sponsor
+          </div>
+          {/* <a href="https://www.keller-na.com">
             <div className="sponsor-item">
               <img src={Keller} alt="Keller logo"></img>
             </div>
-          </a>
-          <a href="https://freeform.co">
+          </a> */}
+          {/* <a href="https://freeform.co">
             <div className="sponsor-item" id="bg-black">
               <img src={Freeform} alt="Freeform logo"></img>
             </div>
-          </a>
-          <a href="https://www.viasat.com">
+          </a> */}
+          {/* <a href="https://www.viasat.com">
             <div className="sponsor-item">
               <img src={Viasat} alt="Viasat logo"></img>
             </div>
-          </a>
+          </a> */}
         </div>
-        {/*<p>Bronze</p>
+        <p>Bronze</p>
         <div className="bronze">
           <div>
             <img src={CoffeeMug} alt="coffee_mug" id="mug"></img>
@@ -55,7 +76,7 @@ function Sponsor() {
             <img src={CoffeeMug} alt="coffee_mug" id="mug"></img>
             Future Sponsor
           </div>
-        </div>*/}
+        </div>
       </div>
     </div>
   );

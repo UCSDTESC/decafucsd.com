@@ -7,27 +7,28 @@ function Home() {
       <Header />
       <div className="content">
         <div className="title">
-          <p id="heading">DECaF Winter 2025</p>
+          <p id="heading">DECaF Fall 2025</p>
           <p id="subheading">Disciplines of Engineering Career Fair</p>
-          <p id="venue">Qualcomm Conference Center, UC San Diego</p>
-          <p id="venue">January 21st 2025, 10am - 2pm</p>
+          <p id="venue">Price Center Ballroom West AB, UC San Diego</p>
+          <p id="venue">October 14th 2025, 10am - 2pm</p>
           <div className="buttons">
             <div className="button-group">
               <div className="button" id="student">
-                <a
-                    href="https://forms.gle/RaBE864RhoT84fwV9"
-                    target="_blank"
-                    rel="noreferrer"
-                  >
-                    Student Registration
-                </a>
+                Student Registration
+                {/* <a
+                  href="https://forms.gle/RaBE864RhoT84fwV9"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  Student Registration
+                </a> */}
               </div>
-              <p className="deadline">Registration Open</p>
+              <p className="deadline">Registration Closed</p>
             </div>
             <div className="button-group">
               <div className="button" id="company">
-              Company Registration
-              {/*<a
+                Company Registration
+                {/*<a
                   href="https://docs.google.com/forms/d/1yd30YZFGGzJuseup9kkmxMWH64UlgqnSwPr59grt-C4/"
                   target="_blank"
                   rel="noreferrer"
