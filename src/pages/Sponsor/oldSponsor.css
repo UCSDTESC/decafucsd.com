@@ -1,0 +1,201 @@
+.sponsor {
+  background-color: #fcfcfc;
+  width: 100%;
+  min-height: 911px;
+  font-family: "Lalezar", system-ui;
+  font-weight: 400;
+  font-style: normal;
+  display: flex;
+  flex-direction: column;
+  user-select: none;
+}
+
+/* Title Section */
+.sponsor .title {
+  display: flex;
+  background-color: #d8c1f7;
+  width: 100%;
+  height: 111px;
+  font-size: 64px;
+  align-items: center;
+  justify-content: center;
+  text-shadow: 0px 0px 150px rgb(0, 0, 0);
+}
+
+/* Sponsor Content Section */
+.sponsor .content {
+  background-color: #fcfcfc;
+  max-width: 100%;
+  min-height: 750px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 0 234px;
+  font-family: "League Spartan", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  color: #79747e;
+  font-size: 36px;
+}
+
+.sponsor p {
+  margin: 25px 0;
+}
+
+/* Platinum, Gold, Silver Sections */
+.sponsor .plat,
+.sponsor .gold,
+.sponsor .silver,
+.sponsor .bronze {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  justify-content: center;
+  padding-bottom: 25px;
+  border-bottom: 1px solid #79747e;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+/* Remove border for the last section (silver) */
+.sponsor .bronze{
+  border-bottom: none;
+}
+
+/* Sponsor Box Styles */
+.sponsor .plat div,
+.sponsor .gold div,
+.sponsor .silver div,
+.sponsor .bronze div {
+  /* background-color: #e2eef0; */
+  height: 188px;
+  width: 282px;
+  border-radius: 30px;
+  margin: 0 25px;
+  text-align: center;
+  font-size: 25px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: hsl(270, 4%, 66%);
+}
+
+.sponsor .gold div {
+  background-color: hsl(56, 38%, 91%);
+}
+
+.sponsor .silver div, .sponsor .bronze div {
+  background-color: white;
+  height: 100px;
+  width: 200px;
+  font-size: 22px;
+}
+
+.sponsor .bronze div {
+  background-color: hsl(29, 51%, 85%);
+}
+
+/* Image Styles */
+.sponsor #mug {
+  height: 78px;
+  opacity: 0.5;
+}
+
+.sponsor .gold .gold-logo {
+  height: 250px;
+}
+
+.sponsor .silver .logo, .sponsor .bronze .logo {
+  margin: 50px 100px;
+  max-width: fit-content;
+  height: 100px;
+}
+
+.sponsor .silver .circle, .sponsor .bronze .circle {
+  margin: 50px 100px;
+  height: 200px;
+  width: 200px;
+}
+
+.silver #mug, .bronze #mug {
+  height: 60px;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .sponsor .title {
+    font-size: 40px; /* Adjust title font size */
+    width: auto;
+  }
+
+  .sponsor .content {
+    padding: 25px;
+  }
+
+  .sponsor .plat div,
+  .sponsor .gold div,
+  .sponsor .silver div, .sponsor .bronze div {
+    height: 150px;
+    width: 200px;
+    font-size: 22px;
+    margin: 15px;
+  }
+
+  .sponsor .gold,
+  .sponsor .silver, .sponsor .bronze {
+    flex-wrap: wrap;
+    width: 100%;
+  }
+
+  .sponsor .silver div, .sponsor .bronze div {
+    height: 80px;
+    width: 160px;
+    font-size: 18px;
+  }
+
+  .sponsor .silver .logo, .sponsor .bronze .logo {
+    margin: 50px 100px;
+    width: 60dvw;
+    height: auto;
+    margin: 3dvh 3dvw;
+  }
+
+  .sponsor #mug {
+    height: 60px;
+  }
+
+  .silver #mug, .bronze #mug {
+    height: 50px;
+  }
+  
+}
+
+.sponsor-item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 15px;
+    width: 192px;
+    height: 90px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 25px;
+    transition: transform 0.3s ease;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+.sponsor-item:hover {
+  transform: scale(1.05);
+}
+  
+.sponsor-item img {
+  max-width: 105%;
+  max-height: auto;
+  object-fit: contain;
+}
+
+#bg-black{
+  background-color: black;
+}
