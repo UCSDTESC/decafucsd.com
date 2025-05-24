@@ -23,20 +23,21 @@ function Home() {
                   Student Registration
                 </a> */}
               </div>
-              <p className="deadline">Registration Closed</p>
+              <p className="deadline">Registration Opens Soon</p>
             </div>
             <div className="button-group">
               <div className="button" id="company">
-                Company Registration
-                {/*<a
-                  href="https://docs.google.com/forms/d/1yd30YZFGGzJuseup9kkmxMWH64UlgqnSwPr59grt-C4/"
+                {/* Company Registration */}
+                <a
+                  // href="https://docs.google.com/forms/d/1yd30YZFGGzJuseup9kkmxMWH64UlgqnSwPr59grt-C4/"
+                  href = "https://forms.gle/dnzUn6cttkZD3nFz8"
                   target="_blank"
                   rel="noreferrer"
                 >
                   Company Registration
-                </a>*/}
+                </a>
               </div>
-              <p className="deadline">Registration Closed</p>
+              <p className="deadline">Registration Open</p>
             </div>
           </div>
         </div>
