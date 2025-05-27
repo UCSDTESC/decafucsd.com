@@ -24,7 +24,7 @@ function FAQ() {
     },
     {
       question: 'Are there any costs associated with participating?',
-      answer: 'Yes, there are various sponsorship packages available. Details can be found on the registration form or by contacting us directly at sponsor@tesc.ucsd.edu.'
+      answer: 'Yes, there are various sponsorship packages available. Details can be found on the registration form or by contacting us directly at sponsorship@tesc.ucsd.edu.'
     },
     {
       question: 'What benefits will our company receive by participating?',
