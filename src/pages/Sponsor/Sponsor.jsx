@@ -10,9 +10,14 @@ function Sponsor() {
       <div className="content">
         <p>Annual</p>
         <div className="annual">
-          {sponsors.Annual.map((sponsor) => {
+          {sponsors.Annual.map((sponsor, idx) => {
             return (
-              <a href="https://www.viasat.com">
+              <a
+                key={`annual-` + idx}
+                href={sponsor.Website || "#"}
+                target="_blank"
+                rel="noreferrer noopener"
+              >
                 <div className="sponsor-item">
                   <img src={sponsor.Logo} alt={sponsor.name}></img>
                 </div>
@@ -22,9 +27,14 @@ function Sponsor() {
         </div>
         <p>Platinum</p>
         <div className="plat">
-          {sponsors.Platinum.map((sponsor) => {
+          {sponsors.Platinum.map((sponsor, idx) => {
             return (
-              <a href="https://www.viasat.com">
+              <a
+                key={`plat-` + idx}
+                href={sponsor.Website || "#"}
+                target="_blank"
+                rel="noreferrer noopener"
+              >
                 <div className="sponsor-item">
                   <img src={sponsor.Logo} alt={sponsor.name}></img>
                 </div>
@@ -34,9 +44,14 @@ function Sponsor() {
         </div>
         <p>Gold</p>
         <div className="gold">
-          {sponsors.Gold.map((sponsor) => {
+          {sponsors.Gold.map((sponsor, idx) => {
             return (
-              <a href="https://www.viasat.com">
+              <a
+                key={`gold-` + idx}
+                href={sponsor.Website || "#"}
+                target="_blank"
+                rel="noreferrer noopener"
+              >
                 <div className="sponsor-item">
                   <img src={sponsor.Logo} alt={sponsor.name}></img>
                 </div>
@@ -44,7 +59,7 @@ function Sponsor() {
             );
           })}
         </div>
-        <p>Silver</p>
+        {/* <p>Silver</p>
         <div className="silver">
           <div>
             <img src={CoffeeMug} alt="coffee_mug" id="mug"></img>
@@ -65,7 +80,7 @@ function Sponsor() {
             <img src={CoffeeMug} alt="coffee_mug" id="mug"></img>
             Future Sponsor
           </div>
-        </div>
+        </div> */}
       </div>
     </div>
   );

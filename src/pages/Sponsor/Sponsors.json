@@ -1,16 +1,58 @@
 {
-  "Annual": [{ "name": "TSMC", "Logo": "/logos/TSMC-logo.png" }],
+  "Annual": [
+    {
+      "name": "TSMC",
+      "Logo": "/logos/TSMC-logo.png",
+      "Website": "https://www.tsmc.com"
+    }
+  ],
   "Platinum": [
-    { "name": "RTX", "Logo": "/logos/Logo-RTX.png" },
-    { "name": "Los Angeles Department of Water and Power", "Logo": "/logos/Logo-LADWP.png" },
-    { "name": "Los Alamos National Laboratory", "Logo": "/logos/Logo-LANL.png" },
-    { "name": "General Atomics", "Logo": "/logos/Logo-GeneralAtomics.jpg" }
+    {
+      "name": "RTX",
+      "Logo": "/logos/Logo-RTX.png",
+      "Website": "https://www.rtx.com"
+    },
+    {
+      "name": "Los Angeles Department of Water and Power",
+      "Logo": "/logos/Logo-LADWP.png",
+      "Website": "https://www.ladwp.com"
+    },
+    {
+      "name": "Los Alamos National Laboratory",
+      "Logo": "/logos/Logo-LANL.png",
+      "Website": "https://www.lanl.gov"
+    },
+    {
+      "name": "General Atomics",
+      "Logo": "/logos/Logo-GeneralAtomics.jpg",
+      "Website": "https://www.ga.com"
+    }
   ],
   "Gold": [
-    { "name": "Viasat", "Logo": "/logos/Viasat_2018_Gradient_Web.png" },
-    { "name": "Skyworks Solutions", "Logo": "/logos/Skyworks_logo.png" },
-    { "name": "Sony Interactive Entertainment - PlayStation", "Logo": "/logos/Logo-SonyPS.png" },
-    { "name": "Pillsbury Winthrop Shaw Pittman", "Logo": "/logos/Logo-pillsbury.png" },
-    { "name": "L3Harris", "Logo": "/logos/L3Harris_Logo.png" }
+    {
+      "name": "Viasat",
+      "Logo": "/logos/Viasat_2018_Gradient_Web.png",
+      "Website": "https://www.viasat.com"
+    },
+    {
+      "name": "Skyworks Solutions",
+      "Logo": "/logos/Skyworks_logo.png",
+      "Website": "https://www.skyworksinc.com"
+    },
+    {
+      "name": "Sony Interactive Entertainment - PlayStation",
+      "Logo": "/logos/Logo-SonyPS.png",
+      "Website": "https://www.playstation.com"
+    },
+    {
+      "name": "Pillsbury Winthrop Shaw Pittman",
+      "Logo": "/logos/Logo-pillsbury.png",
+      "Website": "https://www.pillsburylaw.com"
+    },
+    {
+      "name": "L3Harris",
+      "Logo": "/logos/L3Harris_Logo.png",
+      "Website": "https://www.l3harris.com"
+    }
   ]
 }

@@ -19,7 +19,7 @@ function Home() {
                   Student Registration
                 </a>
               </div>
-              <p className="deadline">Registration Opens Soon</p>
+              <p className="deadline">Registration Open</p>
             </div>
             <div className="button-group">
               <div className="button" id="company">
@@ -33,7 +33,7 @@ function Home() {
                   Company Registration
                 </a> */}
               </div>
-              <p className="deadline">Registration Open</p>
+              <p className="deadline">Registration Closed</p>
             </div>
           </div>
         </div>

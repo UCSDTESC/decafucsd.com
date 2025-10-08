@@ -13,12 +13,12 @@ function Footer() {
         </a>
       </li>
       <li className="contact-item">
-        <a href="https://instagram.com/ucsdtesc/" className="contact-icon">
+        <a href="https://instagram.com/tesc.at.ucsd/" className="contact-icon">
           <FaInstagram />
         </a>
       </li>
       <li className="contact-item">
-        <a href="https://www.linkedin.com/company/ucsdtesc" className="contact-icon">
+        <a href="https://www.linkedin.com/company/tescatucsd/" className="contact-icon">
           <FaLinkedin />
         </a>
       </li>
