@@ -41,7 +41,7 @@ function Header() {
           FAQ
         </div>
         <div className="clickable">
-          <a href="https://www.tescucsd.org/">TESC</a>
+          <a href="https://www.tescatucsd.org/">TESC</a>
         </div>
         <div onClick={() => scrollToSection("contact")} className="clickable">
           CONTACT

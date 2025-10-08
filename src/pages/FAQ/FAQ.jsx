@@ -9,7 +9,7 @@ function FAQ() {
     },
     {
       question: 'When and where does DECaF Fall 2025 take place?',
-      answer: 'DECaF Fall 2025 will be held on October 14th, 2025, from 10 AM to 2 PM at the Price Center West Ballroom AB, UC San Diego.'
+      answer: 'DECaF Fall 2025 will be held on October 14th, 2025, from 10 AM to 2 PM at the Price Center West Ballroom A, UC San Diego.'
     },
     {
       question: 'How can I get more information?',

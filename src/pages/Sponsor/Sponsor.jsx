@@ -1,10 +1,6 @@
 import "./Sponsor.css";
 import CoffeeMug from "../../assets/CoffeeMug.svg";
-import TSMC from "../../logos/TSMC-logo.png";
-import Keller from "../../logos/Keller-North-America.png";
-import Freeform from "../../logos/Freeform-logo.png";
-import Viasat from "../../logos/Viasat_2018_Gradient_Web (1).jpg";
-
+import sponsors from "./Sponsors.json";
 function Sponsor() {
   return (
     <div className="sponsor" id="sponsor">
@@ -12,37 +8,60 @@ function Sponsor() {
         <p>Sponsors</p>
       </div>
       <div className="content">
+        <p>Annual</p>
+        <div className="annual">
+          {sponsors.Annual.map((sponsor, idx) => {
+            return (
+              <a
+                key={`annual-` + idx}
+                href={sponsor.Website || "#"}
+                target="_blank"
+                rel="noreferrer noopener"
+              >
+                <div className="sponsor-item">
+                  <img src={sponsor.Logo} alt={sponsor.name}></img>
+                </div>
+              </a>
+            );
+          })}
+        </div>
         <p>Platinum</p>
         <div className="plat">
-          <div>
-            <img src={CoffeeMug} alt="coffee_mug" id="mug"></img>
-            Future Sponsor
-          </div>
-          <div>
-            <img src={CoffeeMug} alt="coffee_mug" id="mug"></img>
-            Future Sponsor
-          </div>
-          {/* <a href="http://tsmc.com/english">
-            <div className="sponsor-item">
-              <img src={TSMC} alt="TSMC logo"></img>
-            </div>
-          </a> */}
+          {sponsors.Platinum.map((sponsor, idx) => {
+            return (
+              <a
+                key={`plat-` + idx}
+                href={sponsor.Website || "#"}
+                target="_blank"
+                rel="noreferrer noopener"
+              >
+                <div className="sponsor-item">
+                  <img src={sponsor.Logo} alt={sponsor.name}></img>
+                </div>
+              </a>
+            );
+          })}
         </div>
         <p>Gold</p>
         <div className="gold">
-          <div>
-            <img src={CoffeeMug} alt="coffee_mug" id="mug"></img>
-            Future Sponsor
-          </div>
-          <div>
-            <img src={CoffeeMug} alt="coffee_mug" id="mug"></img>
-            Future Sponsor
-          </div>
-          
+          {sponsors.Gold.map((sponsor, idx) => {
+            return (
+              <a
+                key={`gold-` + idx}
+                href={sponsor.Website || "#"}
+                target="_blank"
+                rel="noreferrer noopener"
+              >
+                <div className="sponsor-item">
+                  <img src={sponsor.Logo} alt={sponsor.name}></img>
+                </div>
+              </a>
+            );
+          })}
         </div>
-        <p>Silver</p>
+        {/* <p>Silver</p>
         <div className="silver">
-        <div>
+          <div>
             <img src={CoffeeMug} alt="coffee_mug" id="mug"></img>
             Future Sponsor
           </div>
@@ -50,21 +69,6 @@ function Sponsor() {
             <img src={CoffeeMug} alt="coffee_mug" id="mug"></img>
             Future Sponsor
           </div>
-          {/* <a href="https://www.keller-na.com">
-            <div className="sponsor-item">
-              <img src={Keller} alt="Keller logo"></img>
-            </div>
-          </a> */}
-          {/* <a href="https://freeform.co">
-            <div className="sponsor-item" id="bg-black">
-              <img src={Freeform} alt="Freeform logo"></img>
-            </div>
-          </a> */}
-          {/* <a href="https://www.viasat.com">
-            <div className="sponsor-item">
-              <img src={Viasat} alt="Viasat logo"></img>
-            </div>
-          </a> */}
         </div>
         <p>Bronze</p>
         <div className="bronze">
@@ -76,7 +80,7 @@ function Sponsor() {
             <img src={CoffeeMug} alt="coffee_mug" id="mug"></img>
             Future Sponsor
           </div>
-        </div>
+        </div> */}
       </div>
     </div>
   );

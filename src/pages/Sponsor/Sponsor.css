@@ -1,175 +1,185 @@
 /* Container Styles */
 .sponsor {
-    background-color: #fcfcfc;
-    width: 100%;
-    min-height: 911px;
-    font-family: "Lalezar", system-ui;
-    font-weight: 400;
-    font-style: normal;
-    display: flex;
-    flex-direction: column;
-    user-select: none;
-  }
-  
-  /* Title Section */
+  background-color: #fcfcfc;
+  width: 100%;
+  min-height: 911px;
+  font-family: "Lalezar", system-ui;
+  font-weight: 400;
+  font-style: normal;
+  display: flex;
+  flex-direction: column;
+  user-select: none;
+}
+
+/* Title Section */
+.sponsor .title {
+  display: flex;
+  background-color: #d8c1f7;
+  width: 100%;
+  height: 111px;
+  font-size: 64px;
+  align-items: center;
+  justify-content: center;
+  text-shadow: 0px 0px 150px rgb(0, 0, 0);
+}
+
+/* Content Section */
+.sponsor .content {
+  background-color: #fcfcfc;
+  max-width: 100%;
+  min-height: 750px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 0 234px;
+  font-family: "League Spartan", sans-serif;
+  color: #79747e;
+  font-size: 36px;
+}
+
+/* Section Headers */
+.sponsor p {
+  margin: 25px 0;
+}
+
+/* Sponsor Tier Row Layouts */
+.sponsor .plat,
+.sponsor .annual,
+.sponsor .gold,
+.sponsor .silver,
+.sponsor .bronze {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: wrap;
+  width: 100%;
+  padding-bottom: 25px;
+  border-bottom: 1px solid #79747e;
+  align-items: center;
+}
+
+.sponsor .bronze {
+  border-bottom: none;
+}
+
+/* Sponsor Boxes (Base) */
+.sponsor .plat div,
+.sponsor .annual div,
+.sponsor .gold div,
+.sponsor .silver div,
+.sponsor .bronze div {
+  height: 188px;
+  width: 282px;
+  border-radius: 30px;
+  margin: 0 25px;
+  text-align: center;
+  font-size: 25px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: hsl(270, 4%, 66%);
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.05);
+}
+
+/* Tier-Specific Background Colors */
+.sponsor .annual div {
+  background-color: hsl(218, 69%, 90%);
+  margin: 10px;
+}
+.sponsor .plat div {
+  background-color: hsl(270, 70%, 90%);
+  margin: 10px;
+}
+
+.sponsor .gold div {
+  background-color: hsl(48, 89%, 85%);
+  margin: 10px;
+}
+
+.sponsor .silver div {
+  background-color: hsl(240, 20%, 94%);
+  margin: 10px;
+}
+
+.sponsor .bronze div {
+  background-color: hsl(29, 51%, 85%);
+  margin: 10px;
+}
+
+/* Coffee Mug Icon */
+.sponsor #mug {
+  height: 78px;
+  opacity: 0.5;
+  margin-bottom: 10px;
+}
+
+/* Silver & Bronze: Smaller Mug */
+.silver #mug,
+.bronze #mug {
+  height: 60px;
+}
+
+/* Responsive Layout */
+@media (max-width: 768px) {
   .sponsor .title {
-    display: flex;
-    background-color: #d8c1f7;
-    width: 100%;
-    height: 111px;
-    font-size: 64px;
-    align-items: center;
-    justify-content: center;
-    text-shadow: 0px 0px 150px rgb(0, 0, 0);
+    font-size: 40px;
+    width: auto;
   }
-  
-  /* Content Section */
+
   .sponsor .content {
-    background-color: #fcfcfc;
-    max-width: 100%;
-    min-height: 750px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    padding: 0 234px;
-    font-family: "League Spartan", sans-serif;
-    color: #79747e;
-    font-size: 36px;
+    padding: 25px;
+    font-size: 28px;
   }
-  
-  /* Section Headers */
-  .sponsor p {
-    margin: 25px 0;
-  }
-  
-  /* Sponsor Tier Row Layouts */
-  .sponsor .plat,
-  .sponsor .gold,
-  .sponsor .silver,
-  .sponsor .bronze {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    flex-wrap: wrap;
-    width: 100%;
-    padding-bottom: 25px;
-    border-bottom: 1px solid #79747e;
-    align-items: center;
-  }
-  
-  .sponsor .bronze {
-    border-bottom: none;
-  }
-  
-  /* Sponsor Boxes (Base) */
+
   .sponsor .plat div,
+  .sponsor .annual div,
   .sponsor .gold div,
   .sponsor .silver div,
   .sponsor .bronze div {
-    height: 188px;
-    width: 282px;
-    border-radius: 30px;
-    margin: 0 25px;
-    text-align: center;
-    font-size: 25px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    color: hsl(270, 4%, 66%);
-    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.05);
+    height: 150px;
+    width: 200px;
+    font-size: 20px;
+    margin: 15px;
   }
-  
-  /* Tier-Specific Background Colors */
-  .sponsor .plat div {
-    background-color: hsl(270, 70%, 90%);
-  }
-  
-  .sponsor .gold div {
-    background-color: hsl(48, 89%, 85%);
-  }
-  
-  .sponsor .silver div {
-    background-color: hsl(240, 20%, 94%);
-  }
-  
-  .sponsor .bronze div {
-    background-color: hsl(29, 51%, 85%);
-  }
-  
-  /* Coffee Mug Icon */
+
   .sponsor #mug {
-    height: 78px;
-    opacity: 0.5;
-    margin-bottom: 10px;
-  }
-  
-  /* Silver & Bronze: Smaller Mug */
-  .silver #mug,
-  .bronze #mug {
     height: 60px;
   }
-  
-  /* Responsive Layout */
-  @media (max-width: 768px) {
-    .sponsor .title {
-      font-size: 40px;
-      width: auto;
-    }
-  
-    .sponsor .content {
-      padding: 25px;
-      font-size: 28px;
-    }
-  
-    .sponsor .plat div,
-    .sponsor .gold div,
-    .sponsor .silver div,
-    .sponsor .bronze div {
-      height: 150px;
-      width: 200px;
-      font-size: 20px;
-      margin: 15px;
-    }
-  
-    .sponsor #mug {
-      height: 60px;
-    }
-  
-    .silver #mug,
-    .bronze #mug {
-      height: 50px;
-    }
+
+  .silver #mug,
+  .bronze #mug {
+    height: 50px;
   }
-  
-  /* Sponsor Item Component (optional, reusable) */
-  .sponsor-item {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 15px;
-    width: 192px;
-    height: 90px;
-    background-color: #fff;
-    border: 1px solid #ddd;
-    border-radius: 25px;
-    transition: transform 0.3s ease;
-    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
-  }
-  
-  .sponsor-item:hover {
-    transform: scale(1.05);
-  }
-  
-  .sponsor-item img {
-    max-width: 100%;
-    height: auto;
-    object-fit: contain;
-  }
-  
-  /* Black background override (optional) */
-  #bg-black {
-    background-color: black;
-  }
-  
+}
+
+/* Sponsor Item Component (optional, reusable) */
+.sponsor-item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 15px;
+  width: 192px;
+  height: 90px;
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 25px;
+  transition: transform 0.3s ease;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.sponsor-item:hover {
+  transform: scale(1.05);
+}
+
+.sponsor-item img {
+  max-width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+/* Black background override (optional) */
+#bg-black {
+  background-color: black;
+}
