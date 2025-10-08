@@ -22,11 +22,6 @@ function Sponsor() {
             <img src={CoffeeMug} alt="coffee_mug" id="mug"></img>
             Future Sponsor
           </div>
-          {/* <a href="http://tsmc.com/english">
-            <div className="sponsor-item">
-              <img src={TSMC} alt="TSMC logo"></img>
-            </div>
-          </a> */}
         </div>
         <p>Gold</p>
         <div className="gold">
@@ -38,11 +33,10 @@ function Sponsor() {
             <img src={CoffeeMug} alt="coffee_mug" id="mug"></img>
             Future Sponsor
           </div>
-          
         </div>
         <p>Silver</p>
         <div className="silver">
-        <div>
+          <div>
             <img src={CoffeeMug} alt="coffee_mug" id="mug"></img>
             Future Sponsor
           </div>
