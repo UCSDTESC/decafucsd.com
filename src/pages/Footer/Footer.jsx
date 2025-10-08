@@ -18,10 +18,7 @@ function Footer() {
         </a>
       </li>
       <li className="contact-item">
-        <a
-          href="https://www.linkedin.com/company/ucsdtesc"
-          className="contact-icon"
-        >
+        <a href="https://www.linkedin.com/company/ucsdtesc" className="contact-icon">
           <FaLinkedin />
         </a>
       </li>
@@ -31,7 +28,7 @@ function Footer() {
         </a>
       </li>
       <li className="contact-item">
-        <a href="https://tescucsd.org/discord" className="contact-icon">
+        <a href="https://tescatucsd.org/discord" className="contact-icon">
           <FaDiscord />
         </a>
       </li>
@@ -48,9 +45,8 @@ function Footer() {
         <p id="organized">organized by</p>
         <img id="logo" src={Logo} alt="TESC"></img>
         <p id="desc">
-          The Triton Engineering Student Council empowers UC San Diego
-          engineering students by connecting them with impactful communities,
-          projects, and career building opportunities.
+          The Triton Engineering Student Council empowers UC San Diego engineering students by
+          connecting them with impactful communities, projects, and career building opportunities.
         </p>
       </div>
     </div>

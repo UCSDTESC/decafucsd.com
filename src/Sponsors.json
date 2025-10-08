@@ -1,0 +1,15 @@
+{
+  "Platinum": [
+    { "name": "RTX", "Logo": "/logos/Logo-RTX.png" },
+    { "name": "Los Angeles Department of Water and Power", "Logo": "/logos/Logo-LADWP.png" },
+    { "name": "Los Alamos National Laboratory", "Logo": "/logos/Logo-LANL.png" },
+    { "name": "General Atomics", "Logo": "/logos/Logo-GeneralAtomics.jpg" }
+  ],
+  "Gold": [
+    { "name": "Viasat", "Logo": "/logos/Viasat_2018_Gradient_Web.png" },
+    { "name": "Skyworks Solutions", "Logo": "/logos/Skyworks_logo.png" },
+    { "name": "Sony Interactive Entertainment - PlayStation", "Logo": "/logos/Logo-SonyPS.png" },
+    { "name": "Pillsbury Winthrop Shaw Pittman", "Logo": "/logos/Logo-pillsbury.png" },
+    { "name": "L3Harris", "Logo": "/logos/L3Harris_Logo.png" }
+  ]
+}

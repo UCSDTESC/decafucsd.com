@@ -9,7 +9,7 @@ function Home() {
         <div className="title">
           <p id="heading">DECaF Fall 2025</p>
           <p id="subheading">Disciplines of Engineering Career Fair</p>
-          <p id="venue">Price Center Ballroom West AB, UC San Diego</p>
+          <p id="venue">Price Center Ballroom West A, UC San Diego</p>
           <p id="venue">October 14th 2025, 10am - 2pm</p>
           <div className="buttons">
             <div className="button-group">
