@@ -1,6 +1,6 @@
 import "./Sponsor.css";
 import CoffeeMug from "../../assets/CoffeeMug.svg";
-import sponsors from "../../Sponsors.json";
+import sponsors from "./Sponsors.json";
 function Sponsor() {
   return (
     <div className="sponsor" id="sponsor">
@@ -8,13 +8,25 @@ function Sponsor() {
         <p>Sponsors</p>
       </div>
       <div className="content">
+        <p>Annual</p>
+        <div className="annual">
+          {sponsors.Annual.map((sponsor) => {
+            return (
+              <a href="https://www.viasat.com">
+                <div className="sponsor-item">
+                  <img src={sponsor.Logo} alt={sponsor.name}></img>
+                </div>
+              </a>
+            );
+          })}
+        </div>
         <p>Platinum</p>
         <div className="plat">
           {sponsors.Platinum.map((sponsor) => {
             return (
               <a href="https://www.viasat.com">
                 <div className="sponsor-item">
-                  <img src={sponsor.Logo} alt=""></img>
+                  <img src={sponsor.Logo} alt={sponsor.name}></img>
                 </div>
               </a>
             );
@@ -26,7 +38,7 @@ function Sponsor() {
             return (
               <a href="https://www.viasat.com">
                 <div className="sponsor-item">
-                  <img src={sponsor.Logo} alt=""></img>
+                  <img src={sponsor.Logo} alt={sponsor.name}></img>
                 </div>
               </a>
             );

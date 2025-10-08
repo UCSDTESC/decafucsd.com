@@ -1,4 +1,5 @@
 {
+  "Annual": [{ "name": "TSMC", "Logo": "/logos/TSMC-logo.png" }],
   "Platinum": [
     { "name": "RTX", "Logo": "/logos/Logo-RTX.png" },
     { "name": "Los Angeles Department of Water and Power", "Logo": "/logos/Logo-LADWP.png" },

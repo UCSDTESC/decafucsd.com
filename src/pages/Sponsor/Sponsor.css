@@ -45,6 +45,7 @@
 
 /* Sponsor Tier Row Layouts */
 .sponsor .plat,
+.sponsor .annual,
 .sponsor .gold,
 .sponsor .silver,
 .sponsor .bronze {
@@ -64,6 +65,7 @@
 
 /* Sponsor Boxes (Base) */
 .sponsor .plat div,
+.sponsor .annual div,
 .sponsor .gold div,
 .sponsor .silver div,
 .sponsor .bronze div {
@@ -82,6 +84,10 @@
 }
 
 /* Tier-Specific Background Colors */
+.sponsor .annual div {
+  background-color: hsl(218, 69%, 90%);
+  margin: 10px;
+}
 .sponsor .plat div {
   background-color: hsl(270, 70%, 90%);
   margin: 10px;
@@ -128,6 +134,7 @@
   }
 
   .sponsor .plat div,
+  .sponsor .annual div,
   .sponsor .gold div,
   .sponsor .silver div,
   .sponsor .bronze div {
