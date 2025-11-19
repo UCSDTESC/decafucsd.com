@@ -82,12 +82,12 @@
 .home #company {
   /* background-color: hsl(257, 25%, 45%); */
   background-color: #8c74b7;
-  opacity: 0.5;
+  opacity: 1;
 }
 
 .home #student {
   background-color: #8c74b7;
-  opacity: 1;
+  opacity: 0.5;
 }
 
 .home #student:hover {
