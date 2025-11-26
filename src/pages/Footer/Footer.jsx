@@ -28,7 +28,7 @@ function Footer() {
         </a>
       </li>
       <li className="contact-item">
-        <a href="https://tescatucsd.org/discord" className="contact-icon">
+        <a href="https://discord.gg/C9w2cShb4B" className="contact-icon">
           <FaDiscord />
         </a>
       </li>
