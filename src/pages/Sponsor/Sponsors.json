@@ -8,24 +8,14 @@
   ],
   "Platinum": [
     {
-      "name": "RTX",
-      "Logo": "/logos/Logo-RTX.png",
-      "Website": "https://www.rtx.com"
+      "name": "General Atomics",
+      "Logo": "/logos/Logo-GeneralAtomics.jpg",
+      "Website": "https://www.ga.com"
     },
     {
       "name": "Los Angeles Department of Water and Power",
       "Logo": "/logos/Logo-LADWP.png",
       "Website": "https://www.ladwp.com"
-    },
-    {
-      "name": "Los Alamos National Laboratory",
-      "Logo": "/logos/Logo-LANL.png",
-      "Website": "https://www.lanl.gov"
-    },
-    {
-      "name": "General Atomics",
-      "Logo": "/logos/Logo-GeneralAtomics.jpg",
-      "Website": "https://www.ga.com"
     }
   ],
   "Gold": [
@@ -35,24 +25,19 @@
       "Website": "https://www.viasat.com"
     },
     {
-      "name": "Skyworks Solutions",
-      "Logo": "/logos/Skyworks_logo.png",
-      "Website": "https://www.skyworksinc.com"
+      "name": "Electrical Consultants, Inc.",
+      "Logo": "/logos/eci-black.png",
+      "Website": "https://eciusa.com/"
     },
     {
-      "name": "Sony Interactive Entertainment - PlayStation",
-      "Logo": "/logos/Logo-SonyPS.png",
-      "Website": "https://www.playstation.com"
+      "name": "Dynovas",
+      "Logo": "/logos/Dynovas Matrix Logo (Final).jpg",
+      "Website": "https://www.dynovas.com/"
     },
     {
-      "name": "Pillsbury Winthrop Shaw Pittman",
-      "Logo": "/logos/Logo-pillsbury.png",
-      "Website": "https://www.pillsburylaw.com"
-    },
-    {
-      "name": "L3Harris",
-      "Logo": "/logos/L3Harris_Logo.png",
-      "Website": "https://www.l3harris.com"
+      "name": "Epic",
+      "Logo": "/logos/med Epic logo red (transparent BG).png",
+      "Website": "https://www.epic.com/"
     }
   ]
 }
