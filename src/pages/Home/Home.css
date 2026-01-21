@@ -87,18 +87,14 @@
 
 .home #student {
   background-color: #8c74b7;
-  opacity: 1;
-}
-
-.home #student:hover {
-  /* box-shadow: 0px 0px 10px hsl(0, 0%, 75%), 0px 0px 250px hsl(0, 0%, 25%); */
-  background-color: hsl(261, 32%, 62%);
+  opacity: 0.5;
 }
 
 /* .home #student:hover {
   box-shadow: 0px 0px 10px hsl(0, 0%, 75%), 0px 0px 250px hsl(0, 0%, 25%);
-  background-color: hsl(257, 25%, 55%);
+  background-color: hsl(261, 32%, 62%);
 } */
+
 
 .home a {
   text-decoration: none;
