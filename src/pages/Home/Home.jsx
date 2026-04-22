@@ -17,14 +17,13 @@ function Home() {
                 {/* Student Registration */}
                 {/* <a href="https://forms.gle/yv2mvtdAvCzD3hN37" target="_blank" rel="noreferrer">
                   Student Registration
-                </a>  */}
+                </a> */}
                 Student Registration
               </div>
               <p className="deadline">Registration Closed</p>
             </div>
             <div className="button-group">
               <div className="button" id="company">
-             
                 {/* <a href="https://forms.gle/yxdVtcHmMG8gGMJh8" target="_blank" rel="noreferrer">
                 Company Registration</a> */}
                 Company Registration

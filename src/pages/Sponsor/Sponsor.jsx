@@ -12,12 +12,7 @@ function Sponsor() {
         <div className="annual">
           {sponsors.Annual.map((sponsor, idx) => {
             return (
-              <a
-                key={`annual-` + idx}
-                href={sponsor.Website || "#"}
-                target="_blank"
-                rel="noreferrer noopener"
-              >
+              <a key={`annual-` + idx} target="_blank" rel="noreferrer noopener">
                 <div className="sponsor-item">
                   <img src={sponsor.Logo} alt={sponsor.name}></img>
                 </div>
@@ -29,12 +24,7 @@ function Sponsor() {
         <div className="plat">
           {sponsors.Platinum.map((sponsor, idx) => {
             return (
-              <a
-                key={`plat-` + idx}
-                href={sponsor.Website || "#"}
-                target="_blank"
-                rel="noreferrer noopener"
-              >
+              <a key={`plat-` + idx} target="_blank" rel="noreferrer noopener">
                 <div className="sponsor-item">
                   <img src={sponsor.Logo} alt={sponsor.name}></img>
                 </div>
@@ -46,12 +36,7 @@ function Sponsor() {
         <div className="gold">
           {sponsors.Gold.map((sponsor, idx) => {
             return (
-              <a
-                key={`gold-` + idx}
-                href={sponsor.Website || "#"}
-                target="_blank"
-                rel="noreferrer noopener"
-              >
+              <a key={`gold-` + idx} target="_blank" rel="noreferrer noopener">
                 <div className="sponsor-item">
                   <img src={sponsor.Logo} alt={sponsor.name}></img>
                 </div>
