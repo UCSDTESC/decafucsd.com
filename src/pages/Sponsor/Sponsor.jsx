@@ -8,7 +8,7 @@ function Sponsor() {
         <p>Sponsors</p>
       </div>
       <div className="content">
-        <p>Annual</p>
+        {/*<p>Annual</p>
         <div className="annual">
           {sponsors.Annual.map((sponsor, idx) => {
             return (
@@ -43,8 +43,30 @@ function Sponsor() {
               </a>
             );
           })}
+        </div>*/}
+        <p>Platinum</p>
+        <div className="plat">
+          <div>
+            <img src={CoffeeMug} alt="coffee_mug" id="mug"></img>
+            Future Sponsor
+          </div>
+          <div>
+            <img src={CoffeeMug} alt="coffee_mug" id="mug"></img>
+            Future Sponsor
+          </div>
         </div>
-        {/* <p>Silver</p>
+        <p>Gold</p>
+        <div className="gold">
+          <div>
+            <img src={CoffeeMug} alt="coffee_mug" id="mug"></img>
+            Future Sponsor
+          </div>
+          <div>
+            <img src={CoffeeMug} alt="coffee_mug" id="mug"></img>
+            Future Sponsor
+          </div>
+        </div>
+         <p>Silver</p>
         <div className="silver">
           <div>
             <img src={CoffeeMug} alt="coffee_mug" id="mug"></img>
@@ -55,7 +77,7 @@ function Sponsor() {
             Future Sponsor
           </div>
         </div>
-        <p>Bronze</p>
+        {/*<p>Bronze</p>
         <div className="bronze">
           <div>
             <img src={CoffeeMug} alt="coffee_mug" id="mug"></img>
@@ -65,7 +87,7 @@ function Sponsor() {
             <img src={CoffeeMug} alt="coffee_mug" id="mug"></img>
             Future Sponsor
           </div>
-        </div> */}
+        </div>*/}
       </div>
     </div>
   );
