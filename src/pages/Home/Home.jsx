@@ -7,7 +7,7 @@ function Home() {
       <Header />
       <div className="content">
         <div className="title">
-          <p id="heading">DECaF Fall 2027</p>
+          <p id="heading">DECaF Fall 2026</p>
           <p id="subheading">Disciplines of Engineering Career Fair</p>
           <p id="venue">Price Center Ballroom West A, UC San Diego</p>
           <p id="venue">October 13th, 2026</p>
